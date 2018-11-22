@@ -24,7 +24,7 @@ class RegistrationService(
         case Invalid(errors) => throw new ValidationFailedException(errors.toList)
       }
     }
-    RegistrationResponse("email1","token1")
+    RegistrationResponse(webToken.create(newPerson.id.toString))
   }
 
   private[this] def createPerson(req: RegistrationRequest, accountId: ID): Person = Person(
