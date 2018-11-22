@@ -1,0 +1,4 @@
+CREATE TABLE ACCOUNT (
+    id uuid PRIMARY KEY NOT NULL,
+    data jsonb NOT NULL
+);
