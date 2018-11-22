@@ -1,2 +1,4 @@
-# Example registration and login pages created using Elm and Scala
+# Example registration and login pages 
+
+Created using Elm and Scala (WIP)
 
